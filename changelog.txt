@@ -1,0 +1,16 @@
+NetScore Loyalty Rewards Changelog
+
+2026-08-03 - version 1.0.0
+* Initial release.
+* Added loyalty points earning.
+* Added loyalty points redemption.
+* Added customer reward dashboard.
+* Added reward transaction history.
+* Added WooCommerce My Account integration.
+* Added configurable earning and redemption rules.
+* Added NetSuite integration support.
+* Added secure license activation.
+* Improved performance.
+* Improved security.
+* Tested with WordPress 6.9.4.
+* Tested with WooCommerce 10.2.0.
