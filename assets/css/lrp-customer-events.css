@@ -1,0 +1,117 @@
+#lrp-customer-events-modal {
+    display:none;
+    position:fixed;
+    z-index:99999;
+    left:0; top:0;
+    width:100%; height:100%;
+    background:rgba(0,0,0,0.55);
+}
+#lrp-customer-events-modal .lrp-modal-box {
+    background:#fff;
+    margin:5% auto;
+    padding:20px;
+    border-radius:8px;
+    max-width:1000px;
+    box-shadow:0 0 18px rgba(0,0,0,0.3);
+}
+#lrp-customer-events-modal .lrp-modal-close {
+    float:right;
+    font-size:20px;
+    text-decoration:none;
+    color:#555;
+}
+#lrp-customer-events-modal .lrp-modal-content {
+    clear:both;
+    max-height:70vh;
+    overflow:auto;
+    padding-top:10px;
+}
+#lrp-customer-events-modal .lrp-loading {
+    text-align:center;
+    padding:20px;
+    font-style:italic;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-wrap {
+    margin: 0;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-wrap h2 {
+    color: #07173d;
+    font-weight: 700;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-wrap > p {
+    color: #4f5f78;
+    font-size: 15px;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-wrap .button,
+#lrp-customer-events-modal .lrp-events-page.button {
+    border-color: #cbdaf5;
+    border-radius: 5px;
+    color: #07173d;
+    background: #fff;
+    box-shadow: none;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-wrap > div:first-child .button {
+    background: #133851;
+    border-color: #38A1E7;
+    color: #fff;
+    font-weight: 700;
+    padding: 6px 18px;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-wrap > div:first-child .button:hover,
+#lrp-customer-events-modal .lrp-customer-events-wrap > div:first-child .button:focus {
+    background: #2d94d8;
+    border-color: #2d94d8;
+    color: #fff;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-table {
+    border: 1px solid #dbe6f4;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-table thead tr {
+    background: #133851;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-table thead th {
+    color: #fff !important;
+    font-weight: 700;
+    border-bottom: 0;
+    padding: 14px 16px;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-table tbody td {
+    color: #07173d;
+    border-bottom: 1px solid #e7edf6;
+    padding: 14px 16px;
+    vertical-align: middle;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-table tbody tr:nth-child(even) {
+    background: #f8fbff;
+}
+
+#lrp-customer-events-modal .lrp-customer-events-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+#lrp-customer-events-modal .lrp-events-pagination .button {
+    min-height: 34px;
+    line-height: 32px;
+    padding: 0 12px;
+}
+
+#lrp-customer-events-modal .lrp-events-pagination span.button:not(.disabled) {
+    background: #38A1E7 !important;
+    border-color: #38A1E7 !important;
+    color: #fff !important;
+}
